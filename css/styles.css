@@ -1,0 +1,122 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #6e95dc;
+  font-family: 'Oxygen', sans-serif;
+}
+
+head {
+  background-color: rgb(135, 15, 85)
+}
+
+.image_label {
+  background-color: black;
+  position: relative;
+  display: grid; 
+  overflow: hidden;
+  padding: 5px;
+  border: 3px solid rgb(112, 11, 11);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.left_img {
+
+  padding-left: 15px;
+}
+
+.header_text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large;
+  color:#f60505;
+  padding: 20px;
+}
+
+.subheader_text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large;
+  color:rgb(252, 250, 246);
+  padding-left: 10px;
+  text-align: left;
+  
+  border: 5px solid rgb(165, 16, 16);
+}
+
+.subheader_text2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  color:rgb(21, 110, 130);
+  /*padding-left: 10px;*/
+}
+.category_label {
+  /*background-color: black;*/
+  position: relative;
+  display: grid; 
+  overflow: hidden;
+  padding: 5px;
+  border: 3px solid rgb(112, 11, 11);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+#artwork_footer {
+margin-bottom: 25px;
+background-color: black;
+}
+
+#new_arrival1 {
+  background: url('../images/art-bright-cols.jpg') no-repeat;
+  background-position: center;
+}
+
+#new_arrival2 {
+  background: url('../images/art-multi.jpg') no-repeat;
+  background-position: center;
+}
+
+#new_arrival3 {
+  background: url('../images/art-leaves.jpg') no-repeat;
+  background-position: center;
+}
+
+#new_arrival1, #new_arrival2, #new_arrival3 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position:relative;
+  /*border: 2px solid #3F0C1F;*/
+  overflow: hidden;
+  font-weight:bolder;
+  font-size:xx-large;
+}
+
+.img_container {
+  position: relative;
+  text-align: center;
+  color: yellow;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 25px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 12px;
+  left: 25px;
+  font-weight:normal;
+  font-size:medium;
+}
+
+.textwrap {
+  float: right;
+  margin: 10px;
+}
